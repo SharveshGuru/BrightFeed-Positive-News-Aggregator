@@ -30,7 +30,7 @@ def analyse_article(headline,content):
     
     sentiment_scores = sia.polarity_scores(article_data)
     
-    if sentiment_scores['compound']>=-0.5:
+    if sentiment_scores['compound']>=-0.05:
         return True
     return False
 
@@ -83,3 +83,4 @@ def classify_articles():
             cursor.execute(insert_query,(headline,link,pub_date,summarize_article(content)))
             conn.commit()
 
+classify_articles()
