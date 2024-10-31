@@ -92,7 +92,7 @@ The process follows these steps:
 - pub_date (DATETIME)
 - summary (TEXT)
 
-## Key Features Explained 🔍
+## Key Features Explained
 
 ### Sentiment Analysis
 - Uses NLTK's VADER sentiment analyzer
