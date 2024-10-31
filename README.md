@@ -78,7 +78,7 @@ The process follows these steps:
 2. Analyzes and classifies positive articles.
 3. Generates a PDF newsletter named "BrightFeed Newsletter.pdf".
 
-## Database Schema 💾
+## Database Schema
 
 ### Articles Table
 - headline (TEXT)
