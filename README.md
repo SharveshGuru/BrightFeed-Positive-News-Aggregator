@@ -2,7 +2,7 @@
 
 BrightFeed is an automated news aggregation system that collects, analyzes, and curates positive news stories to create an uplifting newsletter. The system uses natural language processing to identify positive news articles and generates a professionally formatted PDF newsletter.
 
-## Features ✨
+## Features
 
 - Automated news article extraction from "NDTV's Top Feed" RSS feed.
 - Sentiment analysis to identify positive news stories.
@@ -10,7 +10,7 @@ BrightFeed is an automated news aggregation system that collects, analyzes, and 
 - Automatic PDF newsletter generation.
 - SQLite database for efficient data management.
 
-## Technical Architecture 🔧
+## Technical Architecture
 
 The project consists of three main modules:
 
@@ -29,7 +29,7 @@ The project consists of three main modules:
    - Includes headlines, summaries, and source links
    - Formats content with proper styling and layout
 
-## Requirements 📋
+## Requirements
 
 ```
 beautifulsoup4==4.12.3
@@ -52,7 +52,7 @@ tqdm==4.66.6
 urllib3==2.2.3
 ```
 
-## Installation 🚀
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -65,7 +65,7 @@ cd BrightFeed-Positive-News-Aggregator
 pip install -r requirements.txt
 ```
 
-## Usage 💡
+## Usage
 
 Run the main script to generate a newsletter:
 
@@ -110,6 +110,6 @@ The process follows these steps:
 - Formatted publication dates
 - Clean typography and spacing
 
-## Contributing 🤝
+## Contributing
 
 Contributions to improve the project are welcome. Please feel free to submit issues or pull requests.
