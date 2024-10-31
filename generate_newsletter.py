@@ -6,7 +6,7 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, Tabl
 from reportlab.lib.styles import getSampleStyleSheet
 from datetime import datetime
 
-def generate_newsletter():
+def generate():
     # Connect to the SQLite database and fetch data
     conn = sqlite3.connect("news.db")
     cursor = conn.cursor()
@@ -53,5 +53,3 @@ def generate_newsletter():
     # Close the database connection
     conn.close()
     print(f"Newsletter saved as {pdf_filename}")
-
-generate_newsletter()

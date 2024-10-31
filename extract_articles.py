@@ -41,5 +41,3 @@ def extract_and_save_to_db():
         cursor.execute(insert_query,(headline,link,pub_date,content))
         conn.commit()
     # print("Articles have been stored in the database.")
-
-extract_and_save_to_db()

@@ -64,7 +64,7 @@ def summarize_article(content, num_sentences=7):
     
     return summary
 
-def classify_articles():
+def classify_article():
     conn = sqlite3.connect("news.db")
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM articles")
@@ -82,5 +82,3 @@ def classify_articles():
             """
             cursor.execute(insert_query,(headline,link,pub_date,summarize_article(content)))
             conn.commit()
-
-classify_articles()

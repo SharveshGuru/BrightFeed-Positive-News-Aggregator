@@ -1,0 +1,7 @@
+import extract_articles
+import classify_articles
+import generate_newsletter
+
+extract_articles.extract_and_save_to_db()
+classify_articles.classify_article()
+generate_newsletter.generate()
