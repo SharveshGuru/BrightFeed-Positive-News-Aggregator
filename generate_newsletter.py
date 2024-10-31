@@ -52,4 +52,6 @@ def generate():
 
     # Close the database connection
     conn.close()
+    
+    #Indicate completion
     print(f"Newsletter saved as {pdf_filename}")
